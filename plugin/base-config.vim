@@ -5,6 +5,8 @@ set laststatus=2
 set autochdir
 set statusline=%f(%l:%c)%y%m
 
+nnoremap ; :
+
 execute pathogen#infect()
 filetype plugin on
 
