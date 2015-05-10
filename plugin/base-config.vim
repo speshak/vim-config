@@ -1,4 +1,7 @@
-set fo=tcqln ic nohls nu sc scs sm tm=200 bs=2 ai ts=4 sw=4 bg=dark title
+set fo=tcqln ic nohls nu sc scs sm tm=200 bs=2 ai bg=dark title
+
+" Tab related
+set tabstop=2 shiftwidth=2 expandtab
 
 syntax on
 set laststatus=2
