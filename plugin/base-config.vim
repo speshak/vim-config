@@ -1,3 +1,4 @@
+set nocp
 set fo=tcqln ic nohls nu sc scs sm tm=200 bs=2 ai bg=dark title
 
 " Tab related
