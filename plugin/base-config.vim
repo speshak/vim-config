@@ -45,3 +45,6 @@ if version >= 700
 	map nsp <Esc>:set nospell<CR>
 endif
 
+
+map <F7> :StripWhitespace<CR>
+
