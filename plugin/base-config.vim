@@ -7,6 +7,10 @@ call vundle#begin()
 " Vundle managed plugins
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'rodjek/vim-puppet'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'pearofducks/ansible-vim'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()
 filetype plugin indent on
