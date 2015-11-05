@@ -17,6 +17,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'pearofducks/ansible-vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'scrooloose/nerdtree'
+Plugin 'nathanaelkane/vim-indent-guides'
 
 call vundle#end()
 filetype plugin indent on
