@@ -2,7 +2,6 @@ set nocp
 set fo=tcqln scs sm tm=200 bs=2 ai bg=dark title
 set ignorecase nohlsearch number showcmd
 
-execute pathogen#infect()
 syntax on
 filetype plugin on
 
