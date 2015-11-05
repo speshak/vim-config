@@ -25,7 +25,6 @@ let xml_use_xhtml = 1
 runtime! ftplugin/man.vim
 
 map <F6> :NERDTreeToggle<CR>
-autocmd FileType python set omnifunc=pythoncomplete#Complete
 
 let g:explDetailedList=1
 
@@ -38,6 +37,7 @@ let Tlist_Exit_OnlyWindow=1
 
 set printoptions=paper:Letter
 
+" Spelling (didn't exist before vim 7.0)
 if version >= 700
 	set spelllang=en
 	setlocal spellfile=~/.vim-spellfile.en.add
