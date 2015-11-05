@@ -1,18 +1,21 @@
 set nocp
-set fo=tcqln ic nohls nu sc scs sm tm=200 bs=2 ai bg=dark title
+set fo=tcqln scs sm tm=200 bs=2 ai bg=dark title
+set ignorecase nohlsearch number showcmd
+
+execute pathogen#infect()
+syntax on
+filetype plugin on
+
+set sessionoptions-=options
 
 " Tab related
 set tabstop=2 shiftwidth=2 expandtab
 
-syntax on
 set laststatus=2
 set autochdir
 set statusline=%f(%l:%c)%y%m
 
 nnoremap ; :
-
-execute pathogen#infect()
-filetype plugin on
 
 set completeopt=menu
 
@@ -39,7 +42,7 @@ let Tlist_Exit_OnlyWindow=1
 set printoptions=paper:Letter
 
 if version >= 700
-	set spelllang=en	
+	set spelllang=en
 	setlocal spellfile=~/.vim-spellfile.en.add
 	map sp <Esc>:set spell<CR>
 	map nsp <Esc>:set nospell<CR>
