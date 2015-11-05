@@ -1,9 +1,22 @@
 set nocp
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Vundle managed plugins
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+
+call vundle#end()
+filetype plugin indent on
+" End Vundle
+
+
 set fo=tcqln scs sm tm=200 bs=2 ai bg=dark title
 set ignorecase nohlsearch number showcmd
 
 syntax on
-filetype plugin on
 
 set sessionoptions-=options
 
