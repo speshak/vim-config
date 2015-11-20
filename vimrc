@@ -16,6 +16,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'scrooloose/nerdtree'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'kien/ctrlp.vim'
+Plugin 'bling/vim-airline'
 
 " Ruby Plugins
 Plugin 'vim-ruby/vim-ruby'
@@ -39,3 +40,8 @@ Plugin 'vim-scripts/splunk.vim'
 call vundle#end()
 filetype plugin indent on
 " End Vundle
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""
+" See plugins/base-config.vim for other options
+"""""""""""""""""""""""""""""""""""""""""""""""
