@@ -17,6 +17,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
+Plugin 'ConradIrwin/vim-bracketed-paste'
 
 " Ruby Plugins
 Plugin 'vim-ruby/vim-ruby'
