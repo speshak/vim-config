@@ -18,6 +18,8 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'ConradIrwin/vim-bracketed-paste'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-notes'
 
 " Ruby Plugins
 Plugin 'vim-ruby/vim-ruby'
