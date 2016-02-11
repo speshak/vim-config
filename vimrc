@@ -21,6 +21,10 @@ Plugin 'ConradIrwin/vim-bracketed-paste'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
 
+Plugin 'pgilad/vim-skeletons'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+
 " Ruby Plugins
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'

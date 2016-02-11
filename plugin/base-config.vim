@@ -54,3 +54,8 @@ let g:indent_guides_start_level = 2
 " Don't lose selection when shifting
 xnoremap <  <gv
 xnoremap >  >gv
+
+
+" Skeletons!
+let skeletons#autoRegister = 1
+let skeletons#skeletonsDir = "~/.vim/skeletons"
