@@ -20,6 +20,7 @@ Plugin 'bling/vim-airline'
 Plugin 'ConradIrwin/vim-bracketed-paste'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
+Plugin 'mbbill/undotree'
 
 Plugin 'pgilad/vim-skeletons'
 Plugin 'SirVer/ultisnips'
